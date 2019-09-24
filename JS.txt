@@ -184,4 +184,5 @@ tipos de dados primitivos, typeof:
 - object
 	-> Array
 - function
-comando typeof 
+comando typeof
+AULA - 06
