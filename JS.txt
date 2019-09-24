@@ -1,0 +1,187 @@
+java Script - Curso em Vídeo
+aula 01 -
+o que o JavaScript faz? -> praticamente tudo
+Cliente x Server
+utiliza um dispositivo que precisa de dados de um servidor - cliente
+website - HTML5, CSS e JavaScript
+vai precisar saber antes do HTML e CSS
+HTML -> conteúdo
+CSS -> estilo
+JS -> progamação
+google, youtube, netflix, facebook ...
+aula 02 -
+como chegamos aqui?
+1970 - ARPANET 
+1993 - HTML HTTP WWW
+	CERN
+1994 - netscape
+1995 - MOKA -> JavaScript
+Java != JavaScript
+1997 - netscape -> ecmascript versão padronizada do javascript
+2002 - mozilla -> firefox
+2008 - google -> google chrome (motor interno de javascript) V8 codo just in time jit
+2010 - node - maquina que roda javascript fora do navegador
+
+ecmascript - padronização do java script
+1997 - surgiu
+1998 - 2.0
+1999 - 3.0
+2009 - ES5
+2015 - ES6
+2016 - EC2016
+2017 - EC2017
+2018 - EC2018
+tecnologias:
+	jQuery
+	Angular
+	React
+2014 -  vue
+	electron - visualstudiocode - discord
+	ionic - cordovan
+gaming:
+	phaser
+	pixiJS
+	IMPACT
+	melon.js
+	CraftyJS
+Aula 03 - dando os primeiros passos
+praticar -
+ler manuais e livros
+anotações
+projetos próprios
+bibliografias:
+	JavaScript o guia definitivo - david - caro 150 reais
+	JavaScript Guia do progamador - Maurício Silva - nao tao atualizado
+	Guia de referencia da mozilla e ecma( ecma-international.org, developer.mozilla.org )
+Software:
+google chrome
+VSCode (Node Gs e facilidade de criar ambientes internos)
+Node GS -> facilitar rodar o java script fora do navegador
+
+aula 04 - Criando o seu primeiro script
+
+documentos - html/css/js
+abrir VSCode com google chrome
+HTML5 -  
+<!DOCTYPE html> //tipo de documento
+<html lang="en">//linguagem
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+head e body
+heady - configurações
+body - parte branca
+<h1>Título</h1>
+<p>parágrafo</p>
+
+CSS
+dentro de head
+<style>
+	body {
+	background-color: blue;
+	
+	}
+
+
+</style>
+dentro de body...
+<script>
+window.alert('Minha primeira mensagem!')
+window.confirm('Está gostando de JS?')
+window.prompt('Qual é o seu nome?')
+</script>
+como ficou o código final
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgb(108, 108, 185);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(255, 255, 40)
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>já me livrei da maldição</p>
+    <script>
+        window.alert('Minha primeira mensagem!')
+        window.confirm('Está gostando de JS?')
+        window.prompt('Qual é o seu nome?')
+    </script>
+</body>
+</html>
+
+
+MÓDULO B - 
+-> Armazenar dados
+-> Tratamento de dados
+-> Operações com dados
+
+AULA 05 - Variáveis e Tipos Primitivos
+// comentário na linha
+/* até */
+analogia de vagas de carro em um estacionamento e variável
+endereço de memória/espaços especificos no terreno para colocar automóveis
+variáveis var/let n1 = 8.5 (atribuição) / vaga a1 = carro1 (recebe)
+variáveis de tamanhos maiores   - var s1 = "JavaScript"
+				- var s2 = 'Curso em Vídeo'
+				- var s3 = `guanabara`
+tem diferença - 
+se subsitutuir o valor o antigo é substituído
+ai = null // sem nada dentro
+
+nome de cada variável se chamam identificadores
+identificadores:
+- Podem começar com letra, $ ou _
+- não podem começar com números
+- é possível usar letras ou números
+- é possível usar acentos e símbolos
+- não podem conter espaços
+- não podem ser palavras reservadas
+
+agora utilizar o NodeJS
+abrindo:
+- iniciar - procurar NojeJS
+- no VSCode/ terminal novo terminal ou Ctrl/Shift/`
+.exit
+cuidado com a quantidades de terminais abertos
+dicas:
+- Maiúsculas e minúsculas fazem diferença
+- tente usar nomes coerentes para as variáveis
+- Evite se tornar um 'programador alfabeto' ou um 'progamador contador'
+- Variáveis servem para guardar dados
+tipos de dados primitivos, typeof:
+- number
+	->inteiros
+	->float
+		->Infinity
+		NaN
+- string
+	->Cadeia de Caracteres
+- Boolean
+	->Verdadeiro
+	->False
+- null
+- undefined
+- object
+	-> Array
+- function
+comando typeof 
