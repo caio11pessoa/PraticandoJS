@@ -185,4 +185,41 @@ tipos de dados primitivos, typeof:
 	-> Array
 - function
 comando typeof
-AULA - 06
+AULA - 06 - tratamento de dados
+-> Manipulação de dados
+°number
+°string
+guardando (prompt)
+-> manipular os dados dentro do prompt
+var nome = window.prompt('qual é seu nome?') // retorna sempre uma string
+o sinal de + é utilizado para concatenar
+exemplo window.alert('É um prazer em te conhecer,' + nome)
++ para adição e concatenação
+-> no caso da string ele serve para concatenaçã0
+-> no caso de number ele adiciona
+number + numer = adição
+string + string = concatenação
+string -> número
+Number.parseInt(n)
+Number.parseFloat(n)
+// cuidado com os maiúsculos
+Number(n) -> forma mais atualizada do java script
+Número -> String
+- String(n)
+- n.toString()
+Formatador de String
+`Eu estou aprendendo ${s}`
+`O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+utiliza a crase
+alguns comandos:
+-> s.length -> conta quantos caracteres tem na string
+-> s.toUpperCase() -> coloca tudo em letras maiúsculas
+-> s.toLowerCase() -> coloca tudo em letras minúsculas
+Formatando números:
+var n1 = 1543.5
+n1.toFixed(quantidade de casas)
+n1.toFixed(2).replace('.',',')
+toFixed
+		lingua, dinheiro reais
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+'R$ 1,545.50'
