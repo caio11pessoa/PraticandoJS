@@ -223,3 +223,36 @@ toFixed
 		lingua, dinheiro reais
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 'R$ 1,545.50'
+Aula - 07 - Operadores(parte1)
+Operadores:
+°Aritméticos
+°Atribuição
+°relacionais
+°lógicos
+°ternário
+
+aritméticos e atribuição Hoje
+
+Aritméticos:
++ (adição)
+- (subtração)
+* (multiplicação)
+/ (divisão)
+% (módulo, resto da divisão inteira)
+**(potência)
+cuidado com o uso de operadores:
+5+3/2 = 6.5
+faz primeiro a divisão
+(5+3)/2 = 4
+ordem de precedência:
+()
+**
+*, /, %
++, -
+
+Atribuição:
+= (recebe)
+° auto-atribuição
+var n = 3
+n = n + 4
+n = n - 5
