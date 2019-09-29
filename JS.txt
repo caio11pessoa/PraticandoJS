@@ -256,3 +256,60 @@ Atribuição:
 var n = 3
 n = n + 4
 n = n - 5
+n+=1
+n-=1
+n*=2
+n/=2
+n**=2
+n ++
+n --
+Aula 08 - Operadores(parte2)
+Relacionais, lógicos e ternário
+Relacionais:
+>   |  <
+>=  |  <=
+==  |  !=
+exemplos:
+5 > 2  -> True
+7 < 2  -> False
+8 >= 8 -> True
+9 <= 7 -> False
+5 == 5 -> True
+4 != 4 -> False
+Primeiro os Aritméticos depois os Relacionais
+identidade : 
+5 == 5   -> True
+5 == '5' -> True
+O sinal de igualdade analizam a grandeza
+5 ==='5' -> False
+5 ==='5' -> True
+identico ( identidade )
+5 != '5' -> False
+5 !=='5' -> True
+Operadores Lógicos:
+( ! )( && )( || )
+!  -> Negação (not)
+&& -> Conjunção (e)
+|| -> Disjunção (ou)
+primeiro -> aritméticos
+depois -> Relacionais
+Depois -> lógicos
+primeiro o 'Not'(!), depois 'e'(&&) e depois o 'ou'(||).
+Operador Ternário:
+( / )( : )
+média >= 7.0 ? "Aprovado" : "Reprovado"
+("PRATICAR ISSO")
+Módulo C - Entendendo o DOM
+Conhecendo o Dom -> Document Object Model
+-> tratamento de componentes vizuais
+-> Árvore DOM
+-> Manipulando DOM
+
+
+
+
+
+
+
+
+
