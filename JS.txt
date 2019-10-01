@@ -304,12 +304,60 @@ Conhecendo o Dom -> Document Object Model
 -> tratamento de componentes vizuais
 -> Árvore DOM
 -> Manipulando DOM
+Aula 09 - Introdução ao DOM
+Baixando extensão no VSCode > watch in Chrome
+DOM -> Document Object Model
+-> conjunto de objetos dentro do navegador que vão dar acesso aos componentes internos do website
+-> nao funciona no nodeJS
+Árvore DOM:
+°window -> objeto DOM
+	-> Location: URL
+	-> document: documento atual
+	-> history: de onde voce veio e para onde voce vai
+°document
+	->html
+		->head: Cabeçalho
+			->meta
+			->title
+		->body: Corpo
+			->h1
+			->p
+			->p
+				->strong
+			->div
 
 
+window.document.write('Olá, Mundo!')
+dentro de window. existem vários objetos
+dentro de window.document ...
+exemplos de uso:
+window.document.write(window.document.charset)
+window.document.write(window.document.URL)
+window.document.write(window.navigator.appName)
 
-
-
-
-
+existem várias maneiras de navegar dentro da árvore DOM
+Selecionando:
+-Marca
+	->getElementsByTagName()[quais dos objetos]
+		->seleciona mais de um objeto
+ex:var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        corpo.style.background = 'black'
+        p1.style.color = 'blue'
+        window.document.write('Está escrito assim '+ p1.innerText+'<br>')
+        
+        document.write(p1.innerHTML)
+        //window.alert(p1.innerText)
+-ID
+	->getElementById()
+-Nome
+	->getElementsByName()[]
+-Classe
+	->getElementsByClasseName()
+-Seletor
+	->querySelector()
+	->querySelectorAll()
+toda div é representada por uma #
+toda classe é representada por .
 
 
