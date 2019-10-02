@@ -360,4 +360,55 @@ ex:var corpo = window.document.body
 toda div é representada por uma #
 toda classe é representada por .
 
+Aula 10 - Eventos DOM
+Document Object Model
+-> da acesso aos elementos diretamente para o JavaScript
+-> árvore DOM (AULA 09)
+-> 5 técnicas para acessar elementos
+	-> TagName
+	-> ID
+	-> Name
+	-> ClassName
+	-> querySelector
+Eventos:
+-> tudo aquilo que possa acontecer com "essa div"
+	->movimento mouse
+		->mouseenter: colocar o cursor mouse dentro da div
+		->mousemove: movendo o mouse dentro da div
+		->mousedown: apertar o botão do mouse
+		->mouseup: soltar o botão do mouse
+		->click: clicar no mouse
+		->mouseout: colocar o cursor mouse fora da div
+JavaScript Dom event list: Event reference
+Developer.mozilla.org
+<div>
+
+Funções:
+-> Conjunto de códigos, que vão ser executadas somente quando o evento ocorrer
+
+Function ação(param){
+bloco (só vai executar quando o evento ocorrer)
+}
+pelo HTML a detecção de eventos é escrito nas tags, exemplo
+
+<div id = "area" mouseenter = "cliclou()" mouseclick = "clicou()" mouseout = "saiu()">
+</div>
+
+pelo JavaScript se cria uma variável que recebe essa div e adiciona o comando addEventListener, exemplo
+var a = window.document.getElementById('area')
+a.addEventListener('click', clicar)
+a.addEventListener('mouseenter', entrar)
+a.addEventListener('mouseout', sair)
+
+Detecção de erros:
+como detectar o erro
+-> clica com o botão direito ir em inspect/(clica na reticência/Undock) em baixo do console ele afirma o erro
+
+
+
+
+
+
+
+
 
