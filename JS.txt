@@ -404,7 +404,12 @@ Detecção de erros:
 como detectar o erro
 -> clica com o botão direito ir em inspect/(clica na reticência/Undock) em baixo do console ele afirma o erro
 
-
+Módulo D - Condições em JavaScript
+-> Condições Simples
+-> Condições Compostas
+-> Condições Aninhadas
+-> Condições Múltiplas
+-> Exercícios Propostos
 
 
 
