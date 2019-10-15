@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Desafio09</title>
+</head>
+<body>
+    digite o nome do seu País<input type="text" name="país" id="país">
+    <input type="button" value="Verificar" onclick="nacionalidade()">
+    <div name = 'resultado' id = 'resultado'>
+
+    </div>
+    <script>
+    function nacionalidade(){
+        var país = window.document.getElementById('país')
+        var Rsult = window.document.getElementById('resultado')
+        var lugar = país.value
+        Rsult.innerHTML = `Você mora no(a) ${lugar}` 
+        lugar = lugar.toUpperCase()
+        if(lugar == 'BRASIL'){
+            Rsult.innerHTML += `<p>Você é Brasileiro</p>`
+        }else{
+            Rsult.innerHTML += `<p><strong>Extrangeiro</strong></p>` 
+        }
+    }
+    </script>
+</body>
+</html>
